@@ -1,4 +1,4 @@
-# Express TypeScript Template
+# Express TypeScript Template ![express icon](https://img.icons8.com/color/32/express-js.png) ![typescript icon](https://img.icons8.com/color/32/typescript.png)
 
 A minimalist starter template for building scalable Node.js applications with **Express** and **TypeScript**.
 
