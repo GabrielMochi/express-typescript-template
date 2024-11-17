@@ -1,62 +1,62 @@
-# Express TypeScript Template
+# Express TypeScript Template ![express icon](https://img.icons8.com/office/32/express-js.png) ![typescript icon](https://img.icons8.com/color/32/typescript.png)
 
 A minimalist starter template for building scalable Node.js applications with **Express** and **TypeScript**.
 
-## Features
+## Features 🎯
 
 This template includes the following technologies and libraries:
 
-### Programming Language
+### Programming Language 💻
 
 - **TypeScript**: Strongly typed JavaScript for better code quality and maintainability.
 
-### Framework
+### Framework ⚡
 
 - **Express**: Lightweight and flexible web framework for creating APIs and web applications.
 
-### Code Linting and Styling
+### Code Linting and Styling 🧹
 
 - **ESLint**: Enforces code quality and style guidelines.
 - **Prettier**: Ensures consistent code formatting.
 
-### Code Check Before Commit
+### Code Check Before Commit ✅
 
 - **Husky**: Automates Git hooks for running checks before committing code.
 - **Lint-Staged**: Runs linters on staged files to ensure only valid code is committed.
 
-### Hot Reload
+### Hot Reload 🔄
 
 - **Nodemon**: Automatically restarts the server during development.
 
-### Package Manager
+### Package Manager 📦
 
 - **Yarn**: Fast, reliable, and secure dependency management.
 
-### Environment Configuration
+### Environment Configuration 🌐
 
 - **Convict**: Manages environment variables and configuration with validation and default values.
 
-### Logging
+### Logging 📜
 
 - **Pino**: High-performance logging library for structured and efficient logs.
 
-### Security
+### Security 🛡️
 
 - **Helmet**: Enhances security by setting various HTTP headers.
 
-### Request Validation and Error Handling
+### Request Validation and Error Handling 🚦
 
 - **Boom**: Simplifies error handling with HTTP-friendly error objects.
 - **Class-Validator**: Provides declarative validation for request data.
 
-## Getting Started
+## Getting Started 🛠️
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
 
-### Installation
+### Installation 📥
 
 1. Clone the repository:
 
@@ -75,7 +75,7 @@ This template includes the following technologies and libraries:
    yarn install
    ```
 
-### Running the Project
+### Running the Project 🚀
 
 Start the development server with hot reload:
 
@@ -83,13 +83,13 @@ Start the development server with hot reload:
 yarn dev
 ```
 
-### Scripts
+### Scripts 📜
 
 - **`yarn dev`**: Start the server with hot reload.
 - **`yarn lint`**: Run ESLint to check for code quality issues.
 - **`yarn format`**: Format the code with Prettier.
 - **`yarn build`**: Compile TypeScript into JavaScript.
 
-## License
+## License 📄
 
 This project is licensed under the [Unlicense](LICENSE).
