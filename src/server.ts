@@ -1,7 +1,7 @@
 /**
- * TODO: create jest configuration
  * TODO: create Swagger configuration
  * TODO: create super app configuration (api test)
+ * TODO: improve test coverage
  */
 
 import "module-alias/register";
