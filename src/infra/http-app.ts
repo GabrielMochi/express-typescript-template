@@ -1,13 +1,15 @@
 import express from "express";
 import pinoHttp from "pino-http";
 import { logger } from "./logger";
-import { config } from "./config";
+import { ConfiguratorProvider } from "@libs/configurator";
 import cors from "cors";
 // import { routes } from "@routes/index";
 import { errorHandler } from "@middlewares/error-handler.middleware";
 import bodyParser from "body-parser";
 import path from "path";
 import helmet from "helmet";
+
+const config = ConfiguratorProvider.getInstance();
 
 export const app = express();
 

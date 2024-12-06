@@ -8,9 +8,10 @@ import "module-alias/register";
 import "reflect-metadata";
 
 import { logger } from "@infra/logger";
-import { config } from "@infra/config";
+import { ConfiguratorProvider } from "@libs/configurator";
 import { app } from "@infra/http-app";
 
+const config = ConfiguratorProvider.getInstance();
 const port = config.get("port");
 const ip = config.get("ip");
 

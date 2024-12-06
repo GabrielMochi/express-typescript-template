@@ -31,7 +31,11 @@
   "_moduleAliases": {
     "@infra": "dist/infra",
     "#types": "dist/types",
-    "@middlewares": "dist/middlewares"
+    "@middlewares": "dist/middlewares",
+    "@libs": "dist/libs",
+    "@utils": "dist/utils",
+    "@exceptions": "dist/exceptions",
+    "@interfaces": "dist/interfaces"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",

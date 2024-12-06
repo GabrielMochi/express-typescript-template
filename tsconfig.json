@@ -21,7 +21,11 @@
     "paths": {
       "@infra/*": ["infra/*"],
       "#types/*": ["types/*"],
-      "@middlewares/*": ["middlewares/*"]
+      "@middlewares/*": ["middlewares/*"],
+      "@libs/*": ["libs/*"],
+      "@utils/*": ["utils/*"],
+      "@exceptions/*": ["exceptions/*"],
+      "@interfaces/*": ["interfaces/*"]
     }
   },
   "include": ["src/**/*"]
