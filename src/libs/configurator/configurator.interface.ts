@@ -11,19 +11,10 @@ export type ConfigReturnType<K> = K extends null | undefined
     : never;
 
 export abstract class Configurator {
-  protected static cachedConfig: ConfigKeysMap;
-  private config: ConfigKeysMap;
+  private readonly config: ConfigKeysMap;
 
   constructor() {
-    if (Configurator.cachedConfig) {
-      this.config = Configurator.cachedConfig;
-      return;
-    }
-
-    const config = this.load();
-
-    Configurator.cachedConfig = config;
-    this.config = config;
+    this.config = this.load();
   }
 
   /**
