@@ -1,6 +1,8 @@
 import { Boom, internal } from "@hapi/boom";
-import { logger } from "@infra/logger";
+import { LoggerProvider } from "@libs/logger";
 import type { ErrorHandler } from "#types/error-handler.type";
+
+const logger = LoggerProvider.getInstance();
 
 export const errorHandler: ErrorHandler = (error, req, res, next) => {
   if (!error) return next();
